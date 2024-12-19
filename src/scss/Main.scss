@@ -1,0 +1,12 @@
+// Import fonts
+
+@font-face {
+  font-family: "NavFont";
+  src: local("Raleway"),
+    url("https://fonts.gstatic.com/s/raleway/v28/1Ptug8zYS_SKggPN4iEgvxEy.woff2")
+      format("woff2");
+}
+
+// Define colors
+$navbarbg: #fff;
+$mainbg: #f9f9f9;

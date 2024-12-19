@@ -1,14 +1,43 @@
-@use "../scss/ColorMain.scss" as *;
+@use "../scss/Main.scss" as *;
 
-.navbarContainer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 90%;
-    background-color: white;
+.navbarContainer {
+  top: 20px;
+  position: sticky;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  background-color: $navbarbg;
+  opacity: 0.8;
+  border-radius: 28px;
 }
 
-.navbarContainerİn{
-    display: flex;
-    justify-content: space-evenly;
+.navbarContainerİn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+
+.navbarContainerİn > div:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.svgDoing,
+.pointButton,
+.navbarContainerİn {
+  font-family: navFont;
+}
+
+.svgDoing {
+  margin-left: 2%;
+}
+
+.pointButton {
+  margin-right: 2%;
 }

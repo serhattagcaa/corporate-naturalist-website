@@ -1,17 +1,16 @@
-import Navbar from './layout/Navbar'
-import './App.scss'
+import Navbar from "./layout/Navbar";
+import "./App.scss";
+import EntryOne from "./components/EntryOne";
 
 function App() {
-
   return (
-    <><body>
-     <div className='mainContainer'>
-     <Navbar/>
-     </div>
-    </body>
-
+    <>
+      <body>
+        <Navbar />
+        <EntryOne />
+      </body>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

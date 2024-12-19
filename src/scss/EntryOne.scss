@@ -1,6 +1,35 @@
-/* EntryOne.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.entryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  width: 90%;
+  object-fit: cover; /* İçeriğin kesilmesini önler */
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.videoTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+}
+
+.videoTables {
+  width: 36%;
+}
+
+.certificateBox {
+  background-color: aqua;
+  position: absolute;
+  width: 20%;
+  height: 40%;
+  left: 8%;
+  top: 80%;
 }
